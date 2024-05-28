@@ -24,5 +24,5 @@ int main() {
       menorPos = n + 1;
     }
   }
-  printf("%d - %dº posição\n%d - %dº posição", menor, menorPos, maior, maiorPos);
+  printf("%d - %dº posicao\n%d - %dº posicao", menor, menorPos, maior, maiorPos);
 }

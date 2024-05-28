@@ -11,7 +11,7 @@ int main() {
   int num, cont, fatCont, fatorial;
   float soma = 1.0;
 
-  printf("Infome um número: ");
+  printf("Infome um numero: ");
   scanf("%d", &num);
 
   for (cont = 1; cont <= num; cont++) {

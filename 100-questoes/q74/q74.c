@@ -1,7 +1,7 @@
 // 74. Escreva um programa em C que armazene um vetor de até 30 inteiros. O programa deve 
 // fornecer as seguintes operações:
 // a. Inserir um elemento no final do vetor
-// b. Inserir um elemento em uma dada posição
+// b. Inserir um elemento em uma dada posicao
 // c. Remover um elemento de uma posição indicada
 // d. Remover todos elementos iguais a um valor indicado
 // e. Gerar um novo array sem duplicidades a partir deste array
@@ -13,16 +13,16 @@ int main() {
   int n = 1, i, resposta, posicao;
 
   while (n != 0) {
-    printf("\n\nOlá, você possui um vetor de no máximo 30 digitos, aqui estão os numeros dele:\n\n");
+    printf("\n\nOla, voce possui um vetor de no maximo 30 digitos, aqui estao os numeros dele:\n\n");
 
     for (i = 0; i < 30; i++)
       printf("[ %d ] ", lista[i]);
 
-    printf("\n\nO que você deseja fazer com esse vetor:\n\n0 - Desligar\n1 - Inserir um elemento no final do vetor\n2 - Inserir um elemento em uma posição especifica\n3 - Remover um elemento de uma posição especifica\n4 - Remover todos os elementos iguais a um valor indicado\n5 - Gerar um vetor novo sem nenhuma duplicação a partir deste vetor\n\n=> ");
+    printf("\n\nO que voce deseja fazer com esse vetor:\n\n0 - Desligar\n1 - Inserir um elemento no final do vetor\n2 - Inserir um elemento em uma posicao especifica\n3 - Remover um elemento de uma posiçao especifica\n4 - Remover todos os elementos iguais a um valor indicado\n5 - Gerar um vetor novo sem nenhuma duplicacao a partir deste vetor\n\n=> ");
     scanf("%d", &n);
 
     if (n == 1) {
-      printf("\nInforme o número que deseja colocar no fim do vetor\n\n=> ");
+      printf("\nInforme o numero que deseja colocar no fim do vetor\n\n=> ");
       scanf("%d", &resposta);
       for (i = 29; i >= 0; i = i - 1) {
         if (lista[i] != 0) {
@@ -38,7 +38,7 @@ int main() {
 
     if (n == 2) {
 
-      printf("\nInforme a posição que deseja inserir\n\n=> ");
+      printf("\nInforme a posicao que deseja inserir\n\n=> ");
       scanf("%d", &posicao);
       
       printf("\nInforme o numero que deseja inserir\n\n=> ");

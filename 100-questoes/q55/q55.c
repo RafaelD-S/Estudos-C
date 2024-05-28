@@ -35,8 +35,8 @@ int main() {
       n++;
     }
   if (soma == num1) 
-    printf("Os dois números são amigos");
+    printf("Os dois numeros sao amigos");
   }
   else 
-    printf("Os dois números não são amigos");
+    printf("Os dois numeros nao sao amigos");
 }

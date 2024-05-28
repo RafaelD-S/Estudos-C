@@ -8,10 +8,10 @@ int main() {
   int lista[15], num, i, cont = 0;
 
   for (i = 0; i < 15; i++) {
-    printf("Informe os números inteiros (%d/15): ", i + 1);
+    printf("Informe os numeros inteiros (%d/15): ", i + 1);
     scanf("%d", &lista[i]);
   }
-  printf("\nInforme um número: ");
+  printf("\nInforme um numero: ");
   scanf("%d", &num);
 
   for (i = 0; i < 15; i++)

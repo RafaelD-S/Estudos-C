@@ -9,11 +9,11 @@ int main() {
 
   for (n = 0; n < 20; n++) {
     if (n < 10){
-      printf("Informe números inteiros para primeira lista (%d/10): ", n + 1);
+      printf("Informe numeros inteiros para primeira lista (%d/10): ", n + 1);
       scanf("%d", &a[n]);
       continue;
     }
-    printf("Informe números inteiros para segunda lista (%d/10): ", n - 9);
+    printf("Informe numeros inteiros para segunda lista (%d/10): ", n - 9);
     scanf("%d", &b[n - 10]);
   }
   for (n = 0; n < 10; n++) {

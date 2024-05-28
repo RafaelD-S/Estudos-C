@@ -8,7 +8,7 @@ int main() {
   int dias[30], n, maior, maiorPos, menor, menorPos, soma1 = 0, soma2 = 0;
 
   for (n = 0; n < 30; n++) {
-    printf("Infome o índice pluviométrico do dia %d: ", n + 1);
+    printf("Infome o indice pluviometrico do dia %d: ", n + 1);
     scanf("%d", &dias[n]);
 
     if (n == 0) {

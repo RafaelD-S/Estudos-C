@@ -5,7 +5,7 @@ int main() {
 
   // pedir os números
   for (u = 0; u < 15; u++) {
-    printf("Informe um número inteiro (%d/15): ", u + 1);
+    printf("Informe um numero inteiro (%d/15): ", u + 1);
     scanf("%d", &lista[u]);
   }
 

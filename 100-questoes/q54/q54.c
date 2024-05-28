@@ -7,7 +7,7 @@
 int main() {
   int a = 0, num, soma = 0;
 
-  printf("Informe um numero para saber se é triangular: ");
+  printf("Informe um numero para saber se eh triangular: ");
   scanf("%d", &num);
 
   while (soma < num) {
@@ -15,10 +15,10 @@ int main() {
     soma = a + (a + 1) + (a + 2);
     
     if (soma == num) {
-      printf("\nEsse é um número triângular");
+      printf("\nEsse eh um numero triangular");
     }
     else if (soma > num) {
-      printf("\nEsse não é um número triângular");
+      printf("\nEsse nao eh um numero triangular");
     }
     a++;
   }

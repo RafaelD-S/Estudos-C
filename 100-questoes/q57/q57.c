@@ -9,7 +9,7 @@ int main() {
   int n2, n, numElevado, a = 1;
   float soma = 0;
 
-  printf("Informe a posição: ");
+  printf("Informe a posicao: ");
   scanf("%d", &n);
   
   while (a <= n) {

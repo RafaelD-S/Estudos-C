@@ -51,7 +51,7 @@ int main() {
     printf("%d ", lista[n]);
   }
   
-  printf("\nA média é: %.1f", media);
-  printf("\nA mediana é: %.1f", mediana);
-  printf("\nA moda é: %d", moda);
+  printf("\nA media eh: %.1f", media);
+  printf("\nA mediana eh: %.1f", mediana);
+  printf("\nA moda eh: %d", moda);
 }

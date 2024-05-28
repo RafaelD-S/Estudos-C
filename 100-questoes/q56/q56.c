@@ -9,7 +9,7 @@
 int main() {
   int num, soma = 0, n = 1;
 
-  printf("Informe um número inteiro para saber se é perfeito: ");
+  printf("Informe um numero inteiro para saber se eh perfeito: ");
   scanf("%d", &num);
   
   while (n < num) {
@@ -19,7 +19,7 @@ int main() {
     n++;
   }
   if (num == soma) 
-    printf("\nEsse é um número perfeito");
+    printf("\nEsse eh um numero perfeito");
   else 
-    printf("\nEsse não é um número perfeito");
+    printf("\nEsse nao eh um numero perfeito");
 }
