@@ -5,11 +5,12 @@
 // 1.
 int soma(int valor1, int valor2) { return valor1 + valor2; }
 
+// 2.
 int subtrair(int valor1, int valor2, int valor3) {
   return valor1 - valor2 - valor3;
 }
 
-// 2.
+// 3.
 int fatorial(int valor) {
   int i, fat = 1;
   if (valor < 1)
@@ -21,7 +22,7 @@ int fatorial(int valor) {
   return fat;
 }
 
-// 3. (Pode ser feito da mesma forma da 7.) 
+// 4. (Pode ser feito da mesma forma da 7.) 
 int *ler3Numeros() {
   int *vetor = (int *)malloc(3 * sizeof(int));
 
@@ -33,7 +34,7 @@ int *ler3Numeros() {
   return vetor;
 }
 
-// 4.
+// 5.
 typedef struct nums {
   int num1;
   int num2;
@@ -41,7 +42,6 @@ typedef struct nums {
   int num4;
 } nums;
 
-// 5.
 nums ler4Numeros() {
   nums numeros;
   printf("\nInforme o 1º número: ");
@@ -76,7 +76,7 @@ void ler3Palavras(char vetorString[3][20]) {
   }
 }
 
-// 9.
+// 9. (antes da 8 pois cria funções utilizadas nela.)
 typedef struct data {
   int dia;
   int mes;
@@ -197,4 +197,5 @@ int main(void) {
   //   printf("\n%c", cliente.sexo);
   // }
 
+  return 0;
 }
